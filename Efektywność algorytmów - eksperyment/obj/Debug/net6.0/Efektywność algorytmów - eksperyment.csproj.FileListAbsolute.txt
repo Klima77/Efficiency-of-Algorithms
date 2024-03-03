@@ -1,0 +1,14 @@
+C:\Users\kackl\Desktop\Algorytmy\Efektywność algorytmów - eksperyment\Efektywność algorytmów - eksperyment\bin\Debug\net6.0\Efektywność algorytmów - eksperyment.exe
+C:\Users\kackl\Desktop\Algorytmy\Efektywność algorytmów - eksperyment\Efektywność algorytmów - eksperyment\bin\Debug\net6.0\Efektywność algorytmów - eksperyment.deps.json
+C:\Users\kackl\Desktop\Algorytmy\Efektywność algorytmów - eksperyment\Efektywność algorytmów - eksperyment\bin\Debug\net6.0\Efektywność algorytmów - eksperyment.runtimeconfig.json
+C:\Users\kackl\Desktop\Algorytmy\Efektywność algorytmów - eksperyment\Efektywność algorytmów - eksperyment\bin\Debug\net6.0\Efektywność algorytmów - eksperyment.dll
+C:\Users\kackl\Desktop\Algorytmy\Efektywność algorytmów - eksperyment\Efektywność algorytmów - eksperyment\bin\Debug\net6.0\Efektywność algorytmów - eksperyment.pdb
+C:\Users\kackl\Desktop\Algorytmy\Efektywność algorytmów - eksperyment\Efektywność algorytmów - eksperyment\obj\Debug\net6.0\Efektywność algorytmów - eksperyment.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kackl\Desktop\Algorytmy\Efektywność algorytmów - eksperyment\Efektywność algorytmów - eksperyment\obj\Debug\net6.0\Efektywność algorytmów - eksperyment.AssemblyInfoInputs.cache
+C:\Users\kackl\Desktop\Algorytmy\Efektywność algorytmów - eksperyment\Efektywność algorytmów - eksperyment\obj\Debug\net6.0\Efektywność algorytmów - eksperyment.AssemblyInfo.cs
+C:\Users\kackl\Desktop\Algorytmy\Efektywność algorytmów - eksperyment\Efektywność algorytmów - eksperyment\obj\Debug\net6.0\Efektywność algorytmów - eksperyment.csproj.CoreCompileInputs.cache
+C:\Users\kackl\Desktop\Algorytmy\Efektywność algorytmów - eksperyment\Efektywność algorytmów - eksperyment\obj\Debug\net6.0\Efektywność algorytmów - eksperyment.dll
+C:\Users\kackl\Desktop\Algorytmy\Efektywność algorytmów - eksperyment\Efektywność algorytmów - eksperyment\obj\Debug\net6.0\refint\Efektywność algorytmów - eksperyment.dll
+C:\Users\kackl\Desktop\Algorytmy\Efektywność algorytmów - eksperyment\Efektywność algorytmów - eksperyment\obj\Debug\net6.0\Efektywność algorytmów - eksperyment.pdb
+C:\Users\kackl\Desktop\Algorytmy\Efektywność algorytmów - eksperyment\Efektywność algorytmów - eksperyment\obj\Debug\net6.0\Efektywność algorytmów - eksperyment.genruntimeconfig.cache
+C:\Users\kackl\Desktop\Algorytmy\Efektywność algorytmów - eksperyment\Efektywność algorytmów - eksperyment\obj\Debug\net6.0\ref\Efektywność algorytmów - eksperyment.dll
