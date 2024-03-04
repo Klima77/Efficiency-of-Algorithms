@@ -12,6 +12,7 @@ C:\Users\kackl\Desktop\Algorytmy\Efektywność algorytmów - eksperyment\Efektyw
 C:\Users\kackl\Desktop\Algorytmy\Efektywność algorytmów - eksperyment\Efektywność algorytmów - eksperyment\obj\Debug\net6.0\Efektywność algorytmów - eksperyment.pdb
 C:\Users\kackl\Desktop\Algorytmy\Efektywność algorytmów - eksperyment\Efektywność algorytmów - eksperyment\obj\Debug\net6.0\Efektywność algorytmów - eksperyment.genruntimeconfig.cache
 C:\Users\kackl\Desktop\Algorytmy\Efektywność algorytmów - eksperyment\Efektywność algorytmów - eksperyment\obj\Debug\net6.0\ref\Efektywność algorytmów - eksperyment.dll
+C:\Users\kackl\Desktop\Algorytmy\Efektywność algorytmów - eksperyment\Efektywność algorytmów - eksperyment\obj\Debug\net6.0\Efektywność algorytmów - eksperyment.csproj.AssemblyReference.cache
 C:\Users\kackl\Desktop\Algorytmy\Efektywność algorytmów - eksperyment\Efektywność algorytmów - eksperyment\bin\Debug\net6.0\TraceReloggerLib.dll
 C:\Users\kackl\Desktop\Algorytmy\Efektywność algorytmów - eksperyment\Efektywność algorytmów - eksperyment\bin\Debug\net6.0\Dia2Lib.dll
 C:\Users\kackl\Desktop\Algorytmy\Efektywność algorytmów - eksperyment\Efektywność algorytmów - eksperyment\bin\Debug\net6.0\OSExtensions.dll
@@ -90,5 +91,4 @@ C:\Users\kackl\Desktop\Algorytmy\Efektywność algorytmów - eksperyment\Efektyw
 C:\Users\kackl\Desktop\Algorytmy\Efektywność algorytmów - eksperyment\Efektywność algorytmów - eksperyment\bin\Debug\net6.0\runtimes\win-x64\native\capstone.dll
 C:\Users\kackl\Desktop\Algorytmy\Efektywność algorytmów - eksperyment\Efektywność algorytmów - eksperyment\bin\Debug\net6.0\runtimes\win-x86\native\capstone.dll
 C:\Users\kackl\Desktop\Algorytmy\Efektywność algorytmów - eksperyment\Efektywność algorytmów - eksperyment\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.0\System.Management.dll
-C:\Users\kackl\Desktop\Algorytmy\Efektywność algorytmów - eksperyment\Efektywność algorytmów - eksperyment\obj\Debug\net6.0\Efektywność algorytmów - eksperyment.csproj.AssemblyReference.cache
 C:\Users\kackl\Desktop\Algorytmy\Efektywność algorytmów - eksperyment\Efektywność algorytmów - eksperyment\obj\Debug\net6.0\Efektywność algorytmów - eksperyment.csproj.CopyComplete
