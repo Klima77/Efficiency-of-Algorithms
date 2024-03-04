@@ -1,9 +1,14 @@
-﻿namespace Efektywność_algorytmów___eksperyment
+﻿using System;
+using BenchmarkDotNet.Attributes;
+using BenchmarkDotNet.Running;
+
+namespace Efektywność_algorytmów___eksperyment
 {
     internal class Program
     {
         static void Main(string[] args)
         {
+            // check Generators
             int[] randomNumbers = Generators.GenerateRandom(20, 1, 100);
 
             Console.WriteLine("Random Array:");
@@ -12,7 +17,7 @@
                 Console.Write(number + " ");
             }
             Console.WriteLine();
-            //
+            
 
             int[] sortedNumbers = Generators.GenerateSorted(20, 1, 100);
 
