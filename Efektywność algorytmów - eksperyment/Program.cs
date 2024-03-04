@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Security.Cryptography.X509Certificates;
 using BenchmarkDotNet.Attributes;
 using BenchmarkDotNet.Running;
 
@@ -6,7 +7,7 @@ namespace Efektywność_algorytmów___eksperyment
 {
     internal class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             // check Generators
             int[] randomNumbers = Generators.GenerateRandom(20, 1, 100);
@@ -56,6 +57,8 @@ namespace Efektywność_algorytmów___eksperyment
             {
                 Console.Write(number + " ");
             }
+
+            var summary = BenchmarkRunner.Run<AlgorithmsBenchmarks>();
         }
     }
 }

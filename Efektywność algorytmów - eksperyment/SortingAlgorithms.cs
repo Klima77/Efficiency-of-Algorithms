@@ -25,5 +25,15 @@ namespace Efektywność_algorytmów___eksperyment
                 arr[j + 1]  = key;
             }
         }
+
+        public static void QuickSort(int[] arr)
+        {
+            Array.Sort(arr);
+        }
+
+        public static void QuickSortClassic(int[] arr)
+        {
+
+        }
     }
 }
