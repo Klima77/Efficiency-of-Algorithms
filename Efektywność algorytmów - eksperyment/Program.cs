@@ -1,7 +1,9 @@
 ﻿using System;
+using System.Reflection;
 using System.Security.Cryptography.X509Certificates;
 using BenchmarkDotNet.Attributes;
 using BenchmarkDotNet.Running;
+using Efektywność_algorytmów___eksperyment;
 
 namespace Efektywność_algorytmów___eksperyment
 {

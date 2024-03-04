@@ -33,7 +33,7 @@ namespace Efektywność_algorytmów___eksperyment
 
         public static void QuickSortClassic(int[] arr)
         {
-
+            //
         }
     }
 }
