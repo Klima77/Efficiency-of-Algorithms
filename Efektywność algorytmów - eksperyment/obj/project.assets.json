@@ -1760,11 +1760,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kackl\\Desktop\\Algorytmy\\Efektywność algorytmów - eksperyment\\Efektywność algorytmów - eksperyment\\Efektywność algorytmów - eksperyment.csproj",
+      "projectUniqueName": "C:\\Users\\kackl\\Desktop\\Algorytmy\\EfektywnoscAlgorytmow\\Efektywność algorytmów - eksperyment\\Efektywność algorytmów - eksperyment.csproj",
       "projectName": "Efektywność algorytmów - eksperyment",
-      "projectPath": "C:\\Users\\kackl\\Desktop\\Algorytmy\\Efektywność algorytmów - eksperyment\\Efektywność algorytmów - eksperyment\\Efektywność algorytmów - eksperyment.csproj",
+      "projectPath": "C:\\Users\\kackl\\Desktop\\Algorytmy\\EfektywnoscAlgorytmow\\Efektywność algorytmów - eksperyment\\Efektywność algorytmów - eksperyment.csproj",
       "packagesPath": "C:\\Users\\kackl\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kackl\\Desktop\\Algorytmy\\Efektywność algorytmów - eksperyment\\Efektywność algorytmów - eksperyment\\obj\\",
+      "outputPath": "C:\\Users\\kackl\\Desktop\\Algorytmy\\EfektywnoscAlgorytmow\\Efektywność algorytmów - eksperyment\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

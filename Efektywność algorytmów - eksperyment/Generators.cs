@@ -36,7 +36,7 @@ namespace Efektywność_algorytmów___eksperyment
 
         public static int[] GenerateAlmostSorted(int size, int minVal, int maxVal, double disturbancePercent)
         {
-            int[] almostSortedArray = new int[size]; // probably to edit!
+            int[] almostSortedArray = new int[size];
             Random random = new Random();
 
             for (int i = 0; i < size; i++)
@@ -61,7 +61,7 @@ namespace Efektywność_algorytmów___eksperyment
 
         public static int[] GenerateFewUnique(int size, int minVal, int maxVal, int uniqueValues)
         {
-            int[] fewUniqueArray = new int[size]; // probably to edit!
+            int[] fewUniqueArray = new int[size];
             Random random = new Random();
 
             for (int i = 0; i < size; i += size / uniqueValues)

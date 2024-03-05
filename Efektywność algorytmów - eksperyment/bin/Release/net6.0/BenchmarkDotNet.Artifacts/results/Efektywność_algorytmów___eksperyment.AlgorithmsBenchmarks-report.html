@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='utf-8' />
+<title>Efektywność_algorytmów___eksperyment.AlgorithmsBenchmarks-20240305-022231</title>
+
+<style type="text/css">
+	table { border-collapse: collapse; display: block; width: 100%; overflow: auto; }
+	td, th { padding: 6px 13px; border: 1px solid #ddd; text-align: right; }
+	tr { background-color: #fff; border-top: 1px solid #ccc; }
+	tr:nth-child(even) { background: #f8f8f8; }
+</style>
+</head>
+<body>
+<pre><code>
+BenchmarkDotNet v0.13.12, Windows 11 (10.0.22621.1555/22H2/2022Update/SunValley2)
+Unknown processor
+.NET SDK 7.0.400
+  [Host]     : .NET 6.0.21 (6.0.2123.36311), X64 RyuJIT AVX2
+  DefaultJob : .NET 6.0.21 (6.0.2123.36311), X64 RyuJIT AVX2
+</code></pre>
+<pre><code></code></pre>
+
+<table>
+<thead><tr><th>Method    </th><th>ArraySize</th><th>Mean       </th><th>Error   </th><th>StdDev   </th><th>Median     </th><th>Allocated</th>
+</tr>
+</thead><tbody><tr><td>InsertionSort</td><td>10</td><td>107.2618 ns</td><td>2.1777 ns</td><td>5.1330 ns</td><td>106.1466 ns</td><td>-</td>
+</tr><tr><td>MegaSort</td><td>10</td><td>0.0294 ns</td><td>0.0221 ns</td><td>0.0387 ns</td><td>0.0000 ns</td><td>-</td>
+</tr><tr><td>QuickSort</td><td>10</td><td>88.2985 ns</td><td>0.3082 ns</td><td>0.2883 ns</td><td>88.2141 ns</td><td>-</td>
+</tr><tr><td>QuickSortClassic</td><td>10</td><td>0.0187 ns</td><td>0.0243 ns</td><td>0.0270 ns</td><td>0.0008 ns</td><td>-</td>
+</tr><tr><td>InsertionSort</td><td>1000</td><td>9,822.0168 ns</td><td>184.1919 ns</td><td>153.8086 ns</td><td>9,764.5981 ns</td><td>-</td>
+</tr><tr><td>MegaSort</td><td>1000</td><td>0.0306 ns</td><td>0.0257 ns</td><td>0.0253 ns</td><td>0.0415 ns</td><td>-</td>
+</tr><tr><td>QuickSort</td><td>1000</td><td>25,226.4647 ns</td><td>501.1874 ns</td><td>1,266.5646 ns</td><td>25,201.9974 ns</td><td>-</td>
+</tr><tr><td>QuickSortClassic</td><td>1000</td><td>0.0000 ns</td><td>0.0000 ns</td><td>0.0000 ns</td><td>0.0000 ns</td><td>-</td>
+</tr><tr><td>InsertionSort</td><td>100000</td><td>996,919.6866 ns</td><td>19,178.8771 ns</td><td>23,553.3834 ns</td><td>999,418.8965 ns</td><td>1 B</td>
+</tr><tr><td>MegaSort</td><td>100000</td><td>0.0820 ns</td><td>0.0303 ns</td><td>0.0425 ns</td><td>0.0919 ns</td><td>-</td>
+</tr><tr><td>QuickSort</td><td>100000</td><td>4,624,257.7953 ns</td><td>92,079.2201 ns</td><td>258,200.0052 ns</td><td>4,632,751.5625 ns</td><td>5 B</td>
+</tr><tr><td>QuickSortClassic</td><td>100000</td><td>0.0094 ns</td><td>0.0101 ns</td><td>0.0145 ns</td><td>0.0000 ns</td><td>-</td>
+</tr></tbody></table>
+</body>
+</html>
