@@ -26,15 +26,52 @@ namespace Efektywność_algorytmów___eksperyment
             }
         }
 
+
         public static void QuickSort(int[] arr)
         {
             Array.Sort(arr);
         }
 
+
         public static void QuickSortClassical(int[] arr)
         {
-            //
+            if (arr == null || arr.Length <= 1)
+                return;
+
+            QuickSort(arr, 0, arr.Length - 1);
         }
+        static void Swap(int[] arr, int i, int j)
+        {
+            int temp = arr[i];
+            arr[i] = arr[j];
+            arr[j] = temp;
+        }
+        static int Partition(int[] arr, int low, int high)
+        {
+            int pivot = arr[high];
+            int i = low - 1;
+
+            for (int j = low; j <= high - 1; j++)
+            {
+                if (arr[j] < pivot)
+                {
+                    i++;
+                    Swap(arr, i, j);
+                }
+            }
+            Swap(arr, i + 1, high);
+            return i + 1;
+        }
+        static void QuickSort(int[] arr, int low, int high)
+        {
+            if (low < high)
+            {
+                int pi = Partition(arr, low, high);
+                QuickSort(arr, low, pi - 1);
+                QuickSort(arr, pi + 1, high);
+            }
+        }
+
 
         public static void MergeSort(int[] arr)
         {
@@ -43,7 +80,6 @@ namespace Efektywność_algorytmów___eksperyment
 
             sort(arr, 0, arr.Length - 1);
         }
-
         static void merge(int[] arr, int l, int m, int r)
         {
             // Find sizes of two

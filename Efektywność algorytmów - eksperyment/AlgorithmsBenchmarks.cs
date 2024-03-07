@@ -46,7 +46,7 @@ namespace Efektywność_algorytmów___eksperyment
         }
 
         [Benchmark] 
-        public void MegaSort()
+        public void MergeSort()
         {
             SortingAlgorithms.MergeSort(randomArray);
             SortingAlgorithms.MergeSort(sortedArray);

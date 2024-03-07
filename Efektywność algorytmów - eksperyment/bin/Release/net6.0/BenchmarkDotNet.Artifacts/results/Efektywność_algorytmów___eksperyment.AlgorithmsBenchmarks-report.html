@@ -2,7 +2,7 @@
 <html lang='en'>
 <head>
 <meta charset='utf-8' />
-<title>Efektywność_algorytmów___eksperyment.AlgorithmsBenchmarks-20240305-022231</title>
+<title>Efektywność_algorytmów___eksperyment.AlgorithmsBenchmarks-20240307-161110</title>
 
 <style type="text/css">
 	table { border-collapse: collapse; display: block; width: 100%; overflow: auto; }
@@ -22,20 +22,20 @@ Unknown processor
 <pre><code></code></pre>
 
 <table>
-<thead><tr><th>Method    </th><th>ArraySize</th><th>Mean       </th><th>Error   </th><th>StdDev   </th><th>Median     </th><th>Allocated</th>
+<thead><tr><th>Method    </th><th>ArraySize</th><th>Mean     </th><th>Error  </th><th>StdDev </th><th>Gen0</th><th>Gen1</th><th>Gen2</th><th>Allocated</th>
 </tr>
-</thead><tbody><tr><td>InsertionSort</td><td>10</td><td>107.2618 ns</td><td>2.1777 ns</td><td>5.1330 ns</td><td>106.1466 ns</td><td>-</td>
-</tr><tr><td>MegaSort</td><td>10</td><td>0.0294 ns</td><td>0.0221 ns</td><td>0.0387 ns</td><td>0.0000 ns</td><td>-</td>
-</tr><tr><td>QuickSort</td><td>10</td><td>88.2985 ns</td><td>0.3082 ns</td><td>0.2883 ns</td><td>88.2141 ns</td><td>-</td>
-</tr><tr><td>QuickSortClassic</td><td>10</td><td>0.0187 ns</td><td>0.0243 ns</td><td>0.0270 ns</td><td>0.0008 ns</td><td>-</td>
-</tr><tr><td>InsertionSort</td><td>1000</td><td>9,822.0168 ns</td><td>184.1919 ns</td><td>153.8086 ns</td><td>9,764.5981 ns</td><td>-</td>
-</tr><tr><td>MegaSort</td><td>1000</td><td>0.0306 ns</td><td>0.0257 ns</td><td>0.0253 ns</td><td>0.0415 ns</td><td>-</td>
-</tr><tr><td>QuickSort</td><td>1000</td><td>25,226.4647 ns</td><td>501.1874 ns</td><td>1,266.5646 ns</td><td>25,201.9974 ns</td><td>-</td>
-</tr><tr><td>QuickSortClassic</td><td>1000</td><td>0.0000 ns</td><td>0.0000 ns</td><td>0.0000 ns</td><td>0.0000 ns</td><td>-</td>
-</tr><tr><td>InsertionSort</td><td>100000</td><td>996,919.6866 ns</td><td>19,178.8771 ns</td><td>23,553.3834 ns</td><td>999,418.8965 ns</td><td>1 B</td>
-</tr><tr><td>MegaSort</td><td>100000</td><td>0.0820 ns</td><td>0.0303 ns</td><td>0.0425 ns</td><td>0.0919 ns</td><td>-</td>
-</tr><tr><td>QuickSort</td><td>100000</td><td>4,624,257.7953 ns</td><td>92,079.2201 ns</td><td>258,200.0052 ns</td><td>4,632,751.5625 ns</td><td>5 B</td>
-</tr><tr><td>QuickSortClassic</td><td>100000</td><td>0.0094 ns</td><td>0.0101 ns</td><td>0.0145 ns</td><td>0.0000 ns</td><td>-</td>
+</thead><tbody><tr><td>InsertionSort</td><td>10</td><td>120.8 ns</td><td>2.45 ns</td><td>5.81 ns</td><td>-</td><td>-</td><td>-</td><td>-</td>
+</tr><tr><td>MergeSort</td><td>10</td><td>1,202.8 ns</td><td>29.45 ns</td><td>86.37 ns</td><td>0.4959</td><td>-</td><td>-</td><td>3120 B</td>
+</tr><tr><td>QuickSort</td><td>10</td><td>102.5 ns</td><td>2.22 ns</td><td>6.54 ns</td><td>-</td><td>-</td><td>-</td><td>-</td>
+</tr><tr><td>QuickSortClassic</td><td>10</td><td>402.7 ns</td><td>7.99 ns</td><td>15.58 ns</td><td>-</td><td>-</td><td>-</td><td>-</td>
+</tr><tr><td>InsertionSort</td><td>1000</td><td>10,824.5 ns</td><td>215.89 ns</td><td>601.82 ns</td><td>-</td><td>-</td><td>-</td><td>-</td>
+</tr><tr><td>MergeSort</td><td>1000</td><td>179,785.7 ns</td><td>3,588.73 ns</td><td>7,725.12 ns</td><td>73.4863</td><td>-</td><td>-</td><td>461520 B</td>
+</tr><tr><td>QuickSort</td><td>1000</td><td>27,399.2 ns</td><td>541.05 ns</td><td>1,042.42 ns</td><td>-</td><td>-</td><td>-</td><td>-</td>
+</tr><tr><td>QuickSortClassic</td><td>1000</td><td>1,351,199.5 ns</td><td>26,919.15 ns</td><td>68,028.12 ns</td><td>-</td><td>-</td><td>-</td><td>1 B</td>
+</tr><tr><td>InsertionSort</td><td>100000</td><td>1,017,639.2 ns</td><td>19,414.26 ns</td><td>18,160.11 ns</td><td>-</td><td>-</td><td>-</td><td>2 B</td>
+</tr><tr><td>MergeSort</td><td>100000</td><td>26,874,114.3 ns</td><td>211,721.52 ns</td><td>165,298.24 ns</td><td>10093.7500</td><td>1218.7500</td><td>1156.2500</td><td>60157414 B</td>
+</tr><tr><td>QuickSort</td><td>100000</td><td>4,273,526.0 ns</td><td>84,330.65 ns</td><td>97,115.31 ns</td><td>-</td><td>-</td><td>-</td><td>5 B</td>
+</tr><tr><td>QuickSortClassic</td><td>100000</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td>
 </tr></tbody></table>
 </body>
 </html>
