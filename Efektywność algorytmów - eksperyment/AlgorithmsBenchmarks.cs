@@ -68,11 +68,11 @@ namespace Efektywność_algorytmów___eksperyment
         [Benchmark]
         public void QuickSortClassic()
         {
-            SortingAlgorithms.QuickSortClassic(randomArray);
-            SortingAlgorithms.QuickSortClassic(sortedArray);
-            SortingAlgorithms.QuickSortClassic(reversedArray);
-            SortingAlgorithms.QuickSortClassic(almostSortedArray);
-            SortingAlgorithms.QuickSortClassic(fewUniqueArray);
+            SortingAlgorithms.QuickSortClassical(randomArray);
+            SortingAlgorithms.QuickSortClassical(sortedArray);
+            SortingAlgorithms.QuickSortClassical(reversedArray);
+            SortingAlgorithms.QuickSortClassical(almostSortedArray);
+            SortingAlgorithms.QuickSortClassical(fewUniqueArray);
         }
     }
 }
